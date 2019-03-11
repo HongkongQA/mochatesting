@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-03-11T01:47:12.899Z",
+    "end": "2019-03-11T01:47:12.911Z",
+    "duration": 12,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "warning",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "c30e6b31-51c5-44f5-a13a-954801bd7505",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "a00a09a1-ea7d-4bf1-abf8-13d09ac00d08",
+        "title": "App",
+        "fullFile": "/Users/johnathan/Desktop/mochatest/test/apptest.js",
+        "file": "/test/apptest.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "82b3fb4b-3bc9-4cc4-89ed-b090b4d1ac66",
+            "title": "sayHello()",
+            "fullFile": "/Users/johnathan/Desktop/mochatest/test/apptest.js",
+            "file": "/test/apptest.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "sayHello should return hello",
+                "fullTitle": "App sayHello() sayHello should return hello",
+                "timedOut": false,
+                "duration": 1,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "assert.equal(sayHelloResult, 'hello');",
+                "err": {},
+                "isRoot": false,
+                "uuid": "fbb48d06-3eb7-40b5-851a-d8a4df8439c7",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "sayHello should return type string",
+                "fullTitle": "App sayHello() sayHello should return type string",
+                "timedOut": false,
+                "duration": 0,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "assert.typeOf(sayHelloResult, 'string');",
+                "err": {},
+                "isRoot": false,
+                "uuid": "6a76ea7d-a4c5-423b-9d3b-2eba80623da5",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "fbb48d06-3eb7-40b5-851a-d8a4df8439c7",
+              "6a76ea7d-a4c5-423b-9d3b-2eba80623da5"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 1,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          },
+          {
+            "uuid": "2950d553-245b-4f3e-99dd-8fddb4f27ca5",
+            "title": "addNumbers()",
+            "fullFile": "/Users/johnathan/Desktop/mochatest/test/apptest.js",
+            "file": "/test/apptest.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "addNumbers should be above 5",
+                "fullTitle": "App addNumbers() addNumbers should be above 5",
+                "timedOut": false,
+                "duration": 1,
+                "state": "failed",
+                "pass": false,
+                "fail": true,
+                "pending": false,
+                "code": "assert.isAbove(addNumbersResult, 88);",
+                "err": {
+                  "message": "AssertionError: expected 10 to be above 88",
+                  "estack": "AssertionError: expected 10 to be above 88\n    at Function.assert.isAbove (node_modules/chai/lib/chai/interface/assert.js:254:35)\n    at Context.<anonymous> (test/apptest.js:22:11)"
+                },
+                "isRoot": false,
+                "uuid": "a15781ec-f58a-454f-8346-54f3637a0d2b",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "addNumbers should return type number",
+                "fullTitle": "App addNumbers() addNumbers should return type number",
+                "timedOut": false,
+                "duration": 0,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "assert.typeOf(addNumbersResult, 'number');",
+                "err": {},
+                "isRoot": false,
+                "uuid": "a900abe4-4e19-49cc-8008-9af7256aff01",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "a900abe4-4e19-49cc-8008-9af7256aff01"
+            ],
+            "failures": [
+              "a15781ec-f58a-454f-8346-54f3637a0d2b"
+            ],
+            "pending": [],
+            "skipped": [],
+            "duration": 1,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}
